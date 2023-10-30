@@ -5,16 +5,12 @@ using System.Threading.Tasks;
 
 namespace Fifa2023.Core
 {
-    public class Jugadores
+    public class Habilidades
     {
-        public int idJugador;
+        public sbyte IdHabilidad;
 
         public string? Nombre;
 
-        public string? Apellido;
-
-        public string? Contrasena;
-
-        public int Monedas;
+        public string? Descripcion;
     }
 }

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Fifa2023.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Fifa2023.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fifa2023.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Fifa2023.Core/1.0.0": {
+      "type": "project",
+      "path": "../Fifa2023.Core/Fifa2023.Core.csproj",
+      "msbuildProject": "../Fifa2023.Core/Fifa2023.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Fifa2023.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/et12alumno/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/et12alumno/Escritorio/Fifa2023/Fifa2023.Core/Fifa2023.Core.csproj": {
+              "projectPath": "/home/et12alumno/Escritorio/Fifa2023/Fifa2023.Core/Fifa2023.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
