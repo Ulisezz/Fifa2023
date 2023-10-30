@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fifa2023.Core", "Fifa2023.Core\Fifa2023.Core.csproj", "{F68CFA6F-0CD8-41AE-81C9-C33C0F492FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fifa2023.Dapper", "Fifa2023.Dapper\Fifa2023.Dapper.csproj", "{6DD8DB3A-E3D6-4EA4-9A3A-D6EC1254ECA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F68CFA6F-0CD8-41AE-81C9-C33C0F492FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68CFA6F-0CD8-41AE-81C9-C33C0F492FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68CFA6F-0CD8-41AE-81C9-C33C0F492FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68CFA6F-0CD8-41AE-81C9-C33C0F492FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD8DB3A-E3D6-4EA4-9A3A-D6EC1254ECA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD8DB3A-E3D6-4EA4-9A3A-D6EC1254ECA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD8DB3A-E3D6-4EA4-9A3A-D6EC1254ECA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD8DB3A-E3D6-4EA4-9A3A-D6EC1254ECA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
